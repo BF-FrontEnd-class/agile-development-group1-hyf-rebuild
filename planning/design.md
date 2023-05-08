@@ -2,16 +2,29 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
+> We have created a website design that is user-friendly. Easy access to
+> individual parts of the site. Dressed in an expressive title. Colors selected
+> in an extraordinary way, which will create this page unimaginably interesting
+> for the user who will not want to take his eyes off it.
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+### Home Page
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+> ![Design](../public/design_home.png)
+
+### The Program
+
+> ![Design](../public/design_program.png)
+
+### Volunteer
+
+> ![Design](../public/design_volunteer.png)
+
+### Digitalents
+
+> ![Design](../public/design_digitalents.png)
+
+### About
+
+> ![Design](../public/design_about.png%20.png)

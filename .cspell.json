@@ -32,7 +32,10 @@
     "Christiaan",
     "Verwijs",
     "hackyourfuture",
-    "Todos"
+    "Todos",
+    "DIGITALENTS",
+    "digitalents",
+    "Digitalents"
   ],
   "ignorePaths": [
     "node_modules/**",
