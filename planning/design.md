@@ -27,4 +27,4 @@
 
 ### About
 
-> ![Design](../public/design_about.png%20.png)
+> ![Design](../public/design_about.png)
