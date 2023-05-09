@@ -82,15 +82,9 @@
   - There is information about mentorship program, image and the link
     `BECOME A MENTOR`.
 
-- [ ] As a user I can see information about final project, image and the link
-      `DISCOVER MORE`.
-
-  - There is information about final project, image and the link
-    `DISCOVER MORE`.
-
 - [ ] As a user I can see information about career skills sessions, image.
 
-  - There is information about final project, image.
+  - There is information about career skills sessions, image.
 
 - [ ] As a user I can see the footer with address and social media links.
 
