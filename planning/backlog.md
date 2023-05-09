@@ -70,23 +70,27 @@
   - There is the button `DISCOVER THE FULL CURRICULUM HERE`, the button
     `BECOME A COACH` and images of learning path.
 
-- [ ] As a user I can see information about mentorship program, image and the
-      button `BECOME A MENTOR`.
-
-  - There is information about mentorship program, image and the button
-    `BECOME A MENTOR`.
-
-- [ ] As a user I can see information about final project, image and the button
+- [ ] As a user I can see information about final project, image and the link
       `DISCOVER MORE`.
 
-  - There is information about mentorship program, image and the button
+  - There is information about final project, image and the link
+    `DISCOVER MORE`.
+
+- [ ] As a user I can see information about mentorship program, image and the
+      link `BECOME A MENTOR`.
+
+  - There is information about mentorship program, image and the link
     `BECOME A MENTOR`.
 
-- [ ] As a user I can see information about career skills sessions, image and
-      the button.
+- [ ] As a user I can see information about final project, image and the link
+      `DISCOVER MORE`.
 
-  - There is information about final project, image and the button
+  - There is information about final project, image and the link
     `DISCOVER MORE`.
+
+- [ ] As a user I can see information about career skills sessions, image.
+
+  - There is information about final project, image.
 
 - [ ] As a user I can see the footer with address and social media links.
 
