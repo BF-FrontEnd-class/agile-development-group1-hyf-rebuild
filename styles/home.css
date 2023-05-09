@@ -417,6 +417,27 @@ h4 {
   font-weight: bold;
 }
 
+/* Our Partners */
+.partners {
+  width: 90%;
+  padding: 5rem;
+  margin-top: 5rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 40px;
+  border-radius: 1.2rem;
+}
+
+.logo-partners {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-partners > img {
+  width: 10rem;
+}
+
 @media all and (min-width: 850px) {
   body {
     max-height: 100vh;
@@ -469,5 +490,12 @@ h4 {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .statistic,
+  .core-values,
+  .partners,
+  .contact-location {
+    width: 80%;
   }
 }
