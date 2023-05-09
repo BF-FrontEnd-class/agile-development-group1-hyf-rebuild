@@ -17,7 +17,9 @@
     "mentees",
     "mentees",
     "Wireframes",
-    "Todos"
+    "Todos",
+    "digitalents",
+    "Digitalent"
   ],
   "ignorePaths": [
     "node_modules/**",

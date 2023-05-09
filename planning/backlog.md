@@ -9,22 +9,24 @@ create your own!
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to see the logo of the page.
+  - There is a logo at the top of the left page.
+- [ ] As a user I want to see the navigation bar of the page.
+  - There is a navigation bar at the top of the right page.
+- [ ] As a user I want to see the title and description of the page.
+  - There is a title and description of the page.
+- [ ] As a user I want to see the details about offers of the programme
+  - There is a details about offers of the programme.
+- [ ] As a user, I want to see a section titled "Who are we looking for?" and I
+      want to see a button that allows me to easily apply for the digitalents
+      program.
+  - There is a section titled "Who are we looking for?" and button that allows
+    to easily apply for the digitalents program.
+- [ ] As a user, I want to see a footer that includes links to social media and
+      information about the company's location and name.
+  - There is a footer that includes links to social media and information about
+    the company's location and name.
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
-
 ## Could-Haves
-
-> would be really cool ... if there's time
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
