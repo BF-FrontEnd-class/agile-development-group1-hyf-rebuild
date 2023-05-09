@@ -246,6 +246,89 @@ header h1 span {
   font-weight: 700;
 }
 
+/* Section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 30rem;
+  height: 40rem;
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+  background-color: white;
+  border-top: 4px solid;
+  border-radius: 1.2rem;
+  box-shadow: 1rem 1.8rem 2rem rgba(164, 174, 197, 0.324);
+  background-repeat: no-repeat;
+  background-size: 5.5rem;
+  background-position: 21.8rem 13.5rem;
+}
+
+section h2 {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.6rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: hsl(234deg, 12%, 34%);
+}
+
+section .about {
+  position: absolute;
+  top: 8rem;
+  left: 2.6rem;
+  padding-right: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+strong {
+  font-weight: bold;
+  color: hsl(0deg, 0%, 0%);
+}
+
+.discover-volunteer {
+  padding: 20px;
+  font-weight: 700;
+  color: rgb(19, 19, 112);
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: 0.7rem;
+}
+
+.discover-volunteer > a {
+  color: rgb(31, 20, 120);
+  text-transform: uppercase;
+  border-top: 1px solid hsl(0deg, 0%, 0%);
+  border-left: 1px solid hsl(0deg, 0%, 0%);
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 15px;
+}
+
+.volunteer {
+  border-color: hsl(0deg, 0%, 0%);
+}
+
+.program {
+  border-color: hsl(0deg, 78%, 63%);
+}
+
+.digitalents {
+  border-color: hsl(46deg, 72%, 51%);
+}
+
+.our-mission {
+  border-color: hsl(0deg, 0%, 0%);
+}
+
 @media all and (min-width: 850px) {
   body {
     max-height: 100vh;
@@ -266,5 +349,28 @@ header h1 span {
   header h1 {
     max-width: 465px;
     line-height: 4.8rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  section {
+    width: min(100%, 40rem);
+    height: 43.5rem;
+  }
+
+  .volunteer {
+    margin-left: 2rem;
+  }
+
+  .middle-sections {
+    width: min(100%, 40rem);
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
   }
 }

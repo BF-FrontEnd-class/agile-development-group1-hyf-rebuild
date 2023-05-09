@@ -38,7 +38,10 @@
     "Digitalents",
     "Digitalent",
     "digitalent",
-    "intership"
+    "intership",
+    "Epitech",
+    "Agoria",
+    "upskill"
   ],
   "ignorePaths": [
     "node_modules/**",
