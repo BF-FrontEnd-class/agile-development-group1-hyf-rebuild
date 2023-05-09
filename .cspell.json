@@ -35,7 +35,10 @@
     "Todos",
     "DIGITALENTS",
     "digitalents",
-    "Digitalents"
+    "Digitalents",
+    "Digitalent",
+    "digitalent",
+    "intership"
   ],
   "ignorePaths": [
     "node_modules/**",
