@@ -197,6 +197,55 @@ body {
   cursor: pointer;
 }
 
+/* Background */
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  height: 65vh;
+  background: url("../public/hack.jpg") center/cover fixed;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 65vh;
+  background-color: rgba(0, 0, 0, 0.606);
+}
+
+/* Header */
+header {
+  position: relative;
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  margin-top: 2rem;
+  max-width: 375px;
+  font-size: clamp(2.3rem, 1.5174rem + 2.087vw, 3.5rem);
+  font-weight: 300;
+  line-height: 3.5rem;
+  color: rgba(255, 255, 255, 0.79);
+}
+
+header h1 span {
+  color: white;
+  font-weight: 700;
+}
+
 @media all and (min-width: 850px) {
   body {
     max-height: 100vh;
@@ -212,5 +261,10 @@ body {
 
   .nav-button {
     width: 15rem;
+  }
+
+  header h1 {
+    max-width: 465px;
+    line-height: 4.8rem;
   }
 }
