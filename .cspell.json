@@ -41,7 +41,12 @@
     "intership",
     "Epitech",
     "Agoria",
-    "upskill"
+    "upskill",
+    "artevelde",
+    "emploi",
+    "datacamp",
+    "axxes",
+    "stad"
   ],
   "ignorePaths": [
     "node_modules/**",
