@@ -6,12 +6,33 @@
 
 > these are necessary for basic usability
 
+<<<<<<< HEAD
 - [ ] As a user I can read the logo of the page
   - there is a prominent logo at the top-left of the web page
 - [ ] As a user I can read the navigation of the page
+=======
+- [ ] As a user I want to see the logo of the page.
+  - There is a logo at the top of the left page.
+- [ ] As a user I want to see the navigation bar of the page.
+  - There is a navigation bar at the top of the right page.
+- [ ] As a user I want to see the title and description of the page.
+  - There is a title and description of the page.
+- [ ] As a user I want to see the details about offers of the programme
+  - There is a details about offers of the programme.
+- [ ] As a user, I want to see a section titled "Who are we looking for?" and I
+      want to see a button that allows me to easily apply for the digitalents
+      program.
+  - There is a section titled "Who are we looking for?" and button that allows
+    to easily apply for the digitalents program.
+- [ ] As a user, I want to see a footer that includes links to social media and
+      information about the company's location and name.
+  - There is a footer that includes links to social media and information about
+    the company's location and name.
+>>>>>>> 9823845 (add logo-nav)
 
   - there is a prominent navigation at the top-right of the web page
 
+<<<<<<< HEAD
 - [ ] As a user I can read the title and background image of the page
 
   - there is a prominent title at the left and background behind
@@ -197,3 +218,6 @@
 
 - [ ] As a user i want to see the footer of the website with social media links.
   - There is the footer of the website social media links.
+=======
+## Could-Haves
+>>>>>>> 9823845 (add logo-nav)

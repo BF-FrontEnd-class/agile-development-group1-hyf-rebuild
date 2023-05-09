@@ -1,55 +1,121 @@
-# Project Name
+# HYF-Digitalent
 
-<!-- describe your project -->
+## 1. Logo and navigation
 
----
+### As a user I want to see logo and navigation of the page
 
-## Setup
+- This user story is developed on branch `logoNavDigitalent`.
+- This branch is merged to `main` branch after completion.
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+### html
 
----
+- add `nav`
+- add a `div` parent
+- add `img`
+- add `ul` and inside `li`
+- add `a` inside `li`
+- add `button`
 
-<!-- copy this section once for each must-have user story -->
+### css
 
-## user story
+- add class `logo` to `img`
+- make `display` flex and add `padding`
+- add class `nav-link` to `a`
+- add `color` and `letter-spacing`
+- add class `nav-button` to `button`
 
-<!-- each issue created from this section will have the `for: user story` label -->
+## 2. Description
 
-> "as a ... i can ... so that ..."
+### As a user I want to see the title and
 
-<!-- write any extra notes or description -->
+### description of the page
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- This user story is developed on branch `descriptionDigitalent`.
+- This branch is merged to `main` branch after completion.
 
-### Logic: user story
+### html
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add `main`
+- add `section`
+- add `div`
+- add `h5`
+- add `p`
 
-### Interface: user story
+### css
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add class `main-title` to `main`
+- add class `digitalent-head` to `section`
+- add class `description` to `div`
 
-### Interaction: user story
+## 3. Programme
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### As a user I want to see the details about offers of the programme
 
-### Documentation: user story
+- This user story is developed on branch `programmeDigitalent`.
+- This branch is merged to `main` branch after completion.
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### html
+
+- add `section`
+- add `div`
+- add `h2`
+- add `h3`
+- add `p`
+
+### css
+
+- add class `digitalent-sub-head` to `section`
+- add class `container` to `div`
+
+## 4. Information
+
+### As a user, I want to see a section titled "Who
+
+### are we looking for?" and I want ### to see a
+
+### button that allows me to easily apply for the
+
+### digitalents program
+
+- This user story is developed on branch `infoDigitalent`.
+- This branch is merged to `main` branch after completion.
+
+### html
+
+- add `section`
+- add `div`
+- add `img`
+- add `h4`
+- add `p`
+
+### css
+
+- add class `digitalent-info` to `section`
+- add class `container-info` to `div`
+
+## 5. Footer
+
+### As a user I want to see footer to contact the website owner
+
+- This user story is developed on branch `footerDigitalent`.
+- This branch is merged to `main` branch after completion.
+
+### html
+
+- add `footer` tag
+- add `div` tag
+- add `nav` tag
+- add `address` tag
+- add `ul` tag
+- add `a` tag
+- add `li` tag in `a`
+
+### css
+
+- add class `footer` to `footer` tag and `hyf-info` to `div`
+- add `position`, `width`, `margin-top`
+- add class `nav-footer` to nav and class `address` to `address`
+- add `padding`, `width`, `display`, `line-height`
+- add class `social-media` in `ul` tag and class `social-icon` in `li` which is
+  inside the `a` tag
+- add `display`, `width`

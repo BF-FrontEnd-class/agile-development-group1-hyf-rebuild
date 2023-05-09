@@ -27,6 +27,7 @@
     "mentees",
     "mentees",
     "Wireframes",
+<<<<<<< HEAD
     "Wireframes",
     "Bilde",
     "Christiaan",
@@ -36,6 +37,11 @@
     "DIGITALENTS",
     "digitalents",
     "Digitalents"
+=======
+    "Todos",
+    "digitalents",
+    "Digitalent"
+>>>>>>> 9823845 (add logo-nav)
   ],
   "ignorePaths": [
     "node_modules/**",
