@@ -1,10 +1,22 @@
-# Name of project
+# HackYourFuture Belgium
 
-> A longer description
+## Description 💻
+
+HackYourFuture Belgium is a non-profit organization that offers free coding
+courses for refugees, asylum seekers, and other people with limited
+qualifications who are excluded from traditional education programs. The
+organization aims to help participants gain programming skills that will enable
+them to find work in the IT industry.
+
+The HackYourFuture Belgium website provides information about the organization,
+its mission and values, the courses offered by the organization, and success
+stories of graduates. Users can also read about ways they can help the
+organization, such as through volunteering or donations.# Name of project
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [HackYourFuture Belgium](#hackyourfuture-belgium)
+  - [Description 💻](#description-)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
