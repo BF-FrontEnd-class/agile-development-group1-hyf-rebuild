@@ -431,7 +431,6 @@
 
 ### As a user I want to see logo and navigation of the page
 
-
 - This user story is developed on branch `logoNavDigitalent`.
 - This branch is merged to `main` branch after completion.
 
@@ -532,7 +531,6 @@
 - add `ul` and inside `li`
 - add `a` inside `li`
 - add `button`
-
 
 ### css
 
@@ -857,8 +855,8 @@ As a user I want to see history of the website with a photo for the team.
 
 ## Team
 
-As a user I want to see photo, position & social media links for the team
-member of the website
+As a user I want to see photo, position & social media links for the team member
+of the website
 
 ### HTML
 
