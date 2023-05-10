@@ -197,6 +197,381 @@ body {
   cursor: pointer;
 }
 
+/* Background */
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  height: 65vh;
+  background: url("../public/hack.jpg") center/cover fixed;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 65vh;
+  background-color: rgba(0, 0, 0, 0.606);
+}
+
+/* Header */
+header {
+  position: relative;
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  margin-top: 2rem;
+  max-width: 375px;
+  font-size: clamp(2.3rem, 1.5174rem + 2.087vw, 3.5rem);
+  font-weight: 300;
+  line-height: 3.5rem;
+  color: rgba(255, 255, 255, 0.79);
+}
+
+header h1 span {
+  color: white;
+  font-weight: 700;
+}
+
+/* Section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 30rem;
+  height: 40rem;
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+  background-color: white;
+  border-top: 4px solid;
+  border-radius: 1.2rem;
+  box-shadow: 1rem 1.8rem 2rem rgba(164, 174, 197, 0.324);
+  background-repeat: no-repeat;
+  background-size: 5.5rem;
+  background-position: 21.8rem 13.5rem;
+}
+
+section h2 {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.6rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: hsl(234deg, 12%, 34%);
+}
+
+section .about {
+  position: absolute;
+  top: 8rem;
+  left: 2.6rem;
+  padding-right: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+strong {
+  font-weight: bold;
+  color: hsl(0deg, 0%, 0%);
+}
+
+.discover-volunteer {
+  padding: 20px;
+  font-weight: 700;
+  color: rgb(19, 19, 112);
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: 0.7rem;
+}
+
+.discover-volunteer > a {
+  color: rgb(31, 20, 120);
+  text-transform: uppercase;
+  border-top: 1px solid hsl(0deg, 0%, 0%);
+  border-left: 1px solid hsl(0deg, 0%, 0%);
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 15px;
+}
+
+.volunteer {
+  border-color: hsl(0deg, 0%, 0%);
+}
+
+.program {
+  border-color: hsl(0deg, 78%, 63%);
+}
+
+.digitalents {
+  border-color: hsl(46deg, 72%, 51%);
+}
+
+.our-mission {
+  border-color: hsl(0deg, 0%, 0%);
+}
+
+/* Our impact */
+.statistic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 5rem;
+  padding: 3rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 40px;
+  border-radius: 1.2rem;
+}
+
+/* h2 */
+.our-impact,
+.our-values,
+.our-partners {
+  margin-top: 2.5rem;
+  font-size: 2.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.impact {
+  width: 50vw;
+  margin-top: 2.6rem;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+h3 {
+  padding: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.stats1,
+.stats2,
+.stats3 {
+  padding: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.students,
+.intership-job,
+.alumni {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10rem;
+  margin-top: 3rem;
+  background-color: hsl(46deg, 72%, 51%);
+  border-radius: 1.2rem;
+}
+
+/* Our core values */
+.core-values {
+  display: grid;
+  width: 90%;
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 40px;
+  border-radius: 1.2rem;
+}
+
+.community,
+.diversity,
+.commitment,
+.open {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+h4 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Our Partners */
+.partners {
+  width: 90%;
+  padding: 5rem;
+  margin-top: 5rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 40px;
+  border-radius: 1.2rem;
+}
+
+.logo-partners {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-partners > img {
+  width: 10rem;
+}
+
+/* Contact & location */
+.contact-location {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 40px;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  background-color: hsl(46deg, 72%, 51%);
+  line-height: 2.4rem;
+  border-radius: 1rem;
+}
+
+.contact-description {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+form > input {
+  width: 100%;
+  height: 3rem;
+  background-color: hsl(46deg, 72%, 51%);
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  border: 1px solid white;
+  margin: 1rem;
+}
+
+.message {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  background-color: hsl(46deg, 72%, 51%);
+  font-size: 16px;
+  resize: none;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.form-btn {
+  width: 15rem;
+  height: 4rem;
+  margin-top: 2rem;
+  background: rgb(34, 33, 33);
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  color: rgb(236, 236, 236);
+  border-radius: 0.5rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.map {
+  width: 100%;
+  padding-left: 5rem;
+  padding-right: 3rem;
+}
+
+.map > iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 4rem;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.nav-footer {
+  width: 95%;
+  padding: 20px;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.8rem;
+}
+
+.address {
+  width: 20rem;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 2.2rem;
+}
+
+.social-media {
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-social {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .map {
+    margin-top: 3rem;
+    padding-left: initial;
+    padding-right: initial;
+  }
+
+  .contact-location {
+    flex-direction: column;
+  }
+}
+
 @media all and (min-width: 850px) {
   body {
     max-height: 100vh;
@@ -212,5 +587,59 @@ body {
 
   .nav-button {
     width: 15rem;
+  }
+
+  header h1 {
+    max-width: 465px;
+    line-height: 4.8rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  section {
+    width: min(100%, 40rem);
+    height: 43.5rem;
+  }
+
+  .volunteer {
+    margin-left: 2rem;
+  }
+
+  .middle-sections {
+    width: min(100%, 40rem);
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h3 {
+    font-size: 20rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .statistic,
+  .core-values,
+  .partners,
+  .contact-location {
+    width: 80%;
+  }
+
+  form {
+    max-width: 60%;
+  }
+
+  .map {
+    margin-left: 3rem;
+    padding-left: initial;
+    padding-right: initial;
   }
 }
