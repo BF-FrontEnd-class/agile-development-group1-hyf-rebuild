@@ -1,6 +1,86 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   width: 100%;
   font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
   background-color: hsl(0deg, 0%, 98%);
+}
+
+/* Navigation */
+.header {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  min-height: 85px;
+  box-sizing: border-box;
+}
+
+.header-container {
+  -moz-box-align: center;
+  align-items: center;
+  background: transparent none repeat scroll 0% 0%;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 100%;
+  flex-direction: row;
+  -moz-box-flex: 0;
+  height: 100%;
+  -moz-box-pack: start;
+  justify-content: flex-start;
+  margin: auto;
+  max-height: none;
+  max-width: 1280px;
+  width: 100%;
+  z-index: 0;
+  position: static;
+}
+
+.logo > img {
+  height: 100%;
+  object-fit: contain;
+  width: 12rem;
+}
+
+.nav-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 13.5rem;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  line-height: 1.8rem;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.353) 2px 2px 30px;
+}
+
+.nav {
+  width: 60rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-link {
+  color: hsl(0deg, 0%, 0%);
+  letter-spacing: 0.2rem;
+}
+
+.nav-button {
+  width: 40rem;
+  height: 5rem;
+  border-style: none;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  background: rgb(34, 33, 33);
+  color: rgb(236, 236, 236);
+  border-radius: 0.5rem;
+  cursor: pointer;
 }

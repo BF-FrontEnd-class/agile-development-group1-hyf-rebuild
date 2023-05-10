@@ -4,14 +4,6 @@
 
 ### Must-Have
 
-> these are necessary for basic usability
-
-- [ ] As a user I can read the logo of the page
-  - there is a prominent logo at the top-left of the web page
-- [ ] As a user I can read the navigation of the page
-
-  - there is a prominent navigation at the top-right of the web page
-
 - [ ] As a user I can read the title and background image of the page
 
   - there is a prominent title at the left and background behind
@@ -42,8 +34,6 @@
 
 - [ ] As a user i can find logos of sponsors
   - There is a logos of sponsor directly under the core values section
-
----
 
 ## `The PROGRAM` page
 
@@ -197,3 +187,5 @@
 
 - [ ] As a user i want to see the footer of the website with social media links.
   - There is the footer of the website social media links.
+
+## Could-Have
