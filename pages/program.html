@@ -14,30 +14,88 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Hack your future</title>
     <link href="../styles/style.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Navigation -->
-    <nav class="nav-main">
-      <div class="logo">
-        <a href="../index.html"><img src="../public/logo.svg" alt="logo" /></a>
+    <!--Logo and Navigation -->
+    <header>
+      <nav class="nav-main">
+        <div class="logo">
+          <a href="../index.html"
+            ><img src="../public/logo.svg" alt="logo"
+          /></a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./program.html">The program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./volunteer.html">Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./digitalents">Digitalents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about">About</a>
+          </li>
+        </ul>
+        <button class="nav-button" type="submit">Apply now</button>
+      </nav>
+    </header>
+
+    <!--Description, image, button `APPLY NOW` -->+
+    <section class="career">
+      <div class="description">
+        <h1 class="career-description">Your new career starts here</h1>
+        <br />
+        <p class="info-career__description">
+          HackYourFuture is a
+          <b>free 9-month front end web development program</b> for refugees,
+          newcomers and ‘anderstalige’ jobseekers passionate about code and web
+          development. You don’t need any technical background to start, only
+          loads of motivation.
+          <br />
+          <br />
+        </p>
+        <p class="info-career__description">
+          If you want to kickstart your career in the IT sector, take your
+          chance!
+          <br />
+          <b>Women are strongly encouraged to apply!</b>
+          <br />
+          <br />
+        </p>
+        <p class="classes-career__description">
+          We are launching two new web-dev classes, one in ANTWERPEN and one in
+          BRUSSELS
+          <br />
+          <br />
+        </p>
+        <p class="paragraph4-career"></p>
+
+        <p class="apply-career__description">
+          Applications for these new classes starting in March are open now
+        </p>
+        <br />
+        <br />
+        <a
+          href="https://forms.gle/jevj2Ti6brB9pAdw8"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="button"
+          >Apply Now</a
+        >
       </div>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link" href="./program.html">The program</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./volunteer.html">Volunteer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./digitalents">Digitalents</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about">About</a>
-        </li>
-      </ul>
-      <button class="nav-button" type="submit">Apply now</button>
-    </nav>
+      <div class="img-description">
+        <img src="../public/pablic-page-intodaction.jpg" alt="people coding" />
+      </div>
+    </section>
   </body>
 </html>
