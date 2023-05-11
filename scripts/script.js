@@ -44,5 +44,5 @@ btnLeft.addEventListener(`click`, () => {
     curentIndex = curentIndex - 1;
     curentBox.style.transform = "scale(1)";
     curentBox.style.opacity = "1";
-   }
+  }
 });

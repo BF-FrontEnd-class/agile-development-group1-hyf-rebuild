@@ -73,7 +73,9 @@
     "lindekin",
     "anderstalige",
     "jobseekers",
-    "ANTWERPEN"
+    "ANTWERPEN",
+    "Histroy",
+    "teamphoto"
   ],
   "ignorePaths": [
     "node_modules/**",
