@@ -70,7 +70,10 @@
     "ANTWERPEN",
     "jobseekers",
     "anderstalige",
-    "lindekin"
+    "lindekin",
+    "anderstalige",
+    "jobseekers",
+    "ANTWERPEN"
   ],
   "ignorePaths": [
     "node_modules/**",
