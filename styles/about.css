@@ -292,7 +292,7 @@ body {
   flex-direction: row;
   -webkit-box-flex: 0;
   height: 100%;
-  min-height: 300px
+  min-height: 300px;
   -webkit-box-pack: start;
   justify-content: flex-start;
   max-height: none;
