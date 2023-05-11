@@ -68,6 +68,10 @@
     "Optis",
     "Cronos",
     "lindekin"
+    "anderstalige",
+    "jobseekers",
+    "ANTWERPEN",
+    
   ],
   "ignorePaths": [
     "node_modules/**",
