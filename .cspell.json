@@ -67,7 +67,10 @@
     "Zeynep",
     "Optis",
     "Cronos",
-    "lindekin"
+    "lindekin",
+    "anderstalige",
+    "jobseekers",
+    "ANTWERPEN"
   ],
   "ignorePaths": [
     "node_modules/**",
