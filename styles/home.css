@@ -187,8 +187,8 @@ body {
 }
 
 .nav-button {
-  width: 16rem !important;
-  height: 4.5rem !important;
+  width: 16rem;
+  height: 4.5rem;
   border-style: none;
   font-size: 1.7rem;
   letter-spacing: 0.2rem;
@@ -198,7 +198,7 @@ body {
   border-radius: 0.5rem;
   cursor: pointer;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.324);
-  transition: all 0.4s;
+  transition: all 0.7s !important;
 }
 
 .nav-button:hover {
@@ -553,6 +553,12 @@ h4 {
   cursor: pointer;
   fill: hsl(46, 92%, 41%);
   z-index: 1;
+}
+
+.person-box > svg:hover {
+  filter: brightness(70%);
+  transition: 0.4s;
+  transform: rotateX(40deg);
 }
 
 .btn-left {
