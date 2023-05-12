@@ -164,7 +164,6 @@ html {
   align-items: center;
   font-family: "Poppins", sans-serif;
   line-height: 1.8rem;
-  z-index: 1000 !important;
   box-shadow: rgba(0, 0, 0, 0.353) 2px 2px 30px;
 }
 
@@ -241,6 +240,7 @@ html {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 7rem;
 }
 
 .header-home h1 {
