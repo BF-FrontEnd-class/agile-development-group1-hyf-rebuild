@@ -448,7 +448,7 @@
   border: 4px solid rgb(226, 191, 17);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .programme-title-container-main-type-description {
     font-size: 14px;
   }
@@ -459,5 +459,80 @@
 
   .information-style-container-main-text-head-para2 {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-digital-container-head-h5 {
+    font-size: 18px;
+  }
+
+  .programme-title-head {
+    font-size: 16px;
+  }
+
+  .programme-title-container-main-type {
+    padding: 0%;
+  }
+
+  .programme-title-container-main-asp {
+    padding: 0%;
+  }
+
+  .programme-title-container-main-type-description {
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    font-size: 12px;
+  }
+
+  .programme-title-container-main-asp-head {
+    font-size: 12px;
+  }
+
+  .programme-title-container-main-asp-description {
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    font-size: 12px;
+  }
+
+  .programme-title-container-main-type-head {
+    font-size: 12px;
+  }
+
+  .title-digital-container-head-description {
+    font-size: 14px;
+  }
+
+  .information-style-container-main-text-head-h4 {
+    font-size: 12px;
+  }
+
+  .information-style-container-main-text-head-link {
+    font-size: 9px;
+  }
+
+  .information-style-container-main {
+    align-items: normal;
+  }
+
+  .information-style-container-main-text-head-para2 {
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+    padding: 0, 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .information-style-container-main-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .information-style-container-main-text-head {
+    padding: 0;
   }
 }
