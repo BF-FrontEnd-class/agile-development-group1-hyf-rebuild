@@ -2,7 +2,7 @@
 
 ## Description 💻
 
-HackYourFuture Belgium is a non-profit organization that offers free coding
+HackYourFuture Belgium is a non-profit organization which offers free coding
 courses for refugees, asylum seekers, and other people with limited
 qualifications who are excluded from traditional education programs. The
 organization aims to help participants gain programming skills that will enable
@@ -13,89 +13,63 @@ its mission and values, the courses offered by the organization, and success
 stories of graduates. Users can also read about ways they can help the
 organization, such as through volunteering or donations.# Name of project
 
-## Table of contents
+## Table of contents 🗒️
 
-- [HackYourFuture Belgium](#hackyourfuture-belgium)
-  - [Description 💻](#description-)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Screenshots](#screenshots)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
-  - [Instructions for use](#instructions-for-use)
-  - [Code Quality Checks](#code-quality-checks)
-  - [Continuous Integration (CI)](#continuous-integration-ci)
-  - [Repo Setup](#repo-setup)
+- [Table of contents](#table-of-contents)
+- [Screenshots](#screenshots)
+- [Status](#status)
+- [Inspiration](#inspiration)
+- [Technologies](#technologies)
+- [How to Run the Website Locally](#how-to-run-the-website-locally)
+- [Contribution](#contribution)
+- [Code Quality Checks](#code-quality-checks)
+- [Links](#links)
+- [Contact](#contact)
 
-## General info
+## Screenshots 📸
 
-> A short description
+![screenshot](./public/screen.png)
 
-## Screenshots
+## Status ⌛
 
-![Example screenshot](./planning/screenshot.jpg)
+Project is: _done_
 
-## Technologies
+## Inspiration 💭
 
-- Node 14.16.0
-- VSC code
+Project inspired by hackyourfuture.be
+
+## Technologies 🖥️
+
+The HackYourFuture Belgium website was built using the following technologies:
+
+- HTML
+- CSS
+- Git
+- Node 19.4.0
 - JavaScript
-- ...
-- ...
 
-## Setup
+The website is responsive and works on different devices, including computers,
+tablets, and smartphones.
 
-- `npm run start`
+## How to Run the Website Locally 📂
 
-## Code Examples
+To run the HackYourFuture Belgium website locally on your computer, follow these
+steps:
 
-```js
-// the hello world program
-console.log("Hello World");
-```
+1. Make sure you have Node.js installed on your computer.
+2. Clone the GitHub repository (link to clone)
+3. Navigate to the hack-your-future-belgium directory in your terminal.
+4. Run the command `npm install` to install the required packages.
+5. Run the command `npm start` to start the server and open the website in your
+   browser.
 
-## Features
+## Contribution ❤️
 
-List of features ready and Todos for future development
+If you want to contribute to the development of the HackYourFuture Belgium
+website, feel free to submit pull requests to the organization's GitHub
+repository. Any help is appreciated!
 
--
--
--
-
-To-do list:
-
--
--
-
-## Status
-
-Project is: _in progress_
-
-## Inspiration
-
-Project by freeCodeCamp.org
-
-## Contact
-
-By [Name]
-
-## Instructions for use
-
-<details>
-  <summary>Getting Started</summary>
-
-<!-- a guide to using this repository -->
-
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
-3. `npm install`
-
-## Code Quality Checks
+## Code Quality Checks ✔️
 
 - `npm run format`: Makes sure all the code in this repository is well-formatted
   (looks good).
@@ -109,33 +83,19 @@ By [Name]
   doesn't mean it is! It doesn't know every word in the world. You can add new
   correct words to the [./.cspell.json](./.cspell.json) file so they won't cause
   an error.
-- `npm run accessibility -- ./path/to/file.html`: Runs an accessibility analysis
-  on all HTML files in the given path and writes the report to
-  `/accessibility_report`
 
-## Continuous Integration (CI)
+## Links 🌐
 
-When you open a PR to `main`/`master` in your repository, GitHub will
-automatically do a linting check on the code in this repository, you can see
-this in the[./.github/workflows/lint.yml](./.github/workflows/lint.yml) file.
+[Repo](https://github.com/BF-FrontEnd-class/agile-development-group1-hyf-rebuild)
 
-If the linting fails, you will not be able to merge the PR. You can double check
-that your code will pass before pushing by running the code quality scripts
-locally.
+[Live](https://bf-frontend-class.github.io/agile-development-group1-hyf-rebuild/)
 
-## Repo Setup
+## Contact 💌
 
-- Give each member **_write_** access to the repo (if it's a group project)
-- Turn on GitHub Pages and put a link to your website in the repo's description
-- Turn on GitHub Actions
-- In _General_ Section > check **Discussions**
-- In the _Branches_ section of your repo's settings make sure the
-  `master`/`main` branch must:
-  - "_Require a pull request before merging_"
-  - "_Require approvals_"
-  - "_Dismiss stale pull request approvals when new commits are pushed_"
-  - "_Require status checks to pass before merging_"
-  - "_Require branches to be up to date before merging_"
-  - "_Do not allow bypassing the above settings_"
-
-</details>
+| Name                                           |
+| ---------------------------------------------- |
+| [Maria](https://github.com/Mariya-go)          |
+| [Vlad](https://github.com/VladyslavHornitskyi) |
+| [Rahtab](https://github.com/Rahatab)           |
+| [Rekha](https://github.com/Rekhasriraman)      |
+| [Milena](https://github.com/Mileenka)          |
