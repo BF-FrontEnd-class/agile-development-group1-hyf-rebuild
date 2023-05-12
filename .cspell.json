@@ -75,7 +75,11 @@
     "jobseekers",
     "ANTWERPEN",
     "Histroy",
-    "teamphoto"
+    "teamphoto",
+    "Halasz",
+    "Channa",
+    "Lizhen",
+    "socialmedia"
   ],
   "ignorePaths": [
     "node_modules/**",
