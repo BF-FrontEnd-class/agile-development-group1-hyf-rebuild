@@ -2,6 +2,7 @@
 
 .nav-main {
   position: relative;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
@@ -125,7 +126,7 @@
   text-align: center;
   max-width: none;
   position: relative;
-  margin-top: 130px;
+  margin-top: 120px;
   top: 2.5rem;
   left: 1.5rem;
 }
@@ -211,7 +212,7 @@
   padding: 50px 20px;
   position: relative;
   box-shadow: none;
-  background: rgb(248, 249, 252);
+  background: rgb(248, 249, 252) !important;
   z-index: 1;
   flex: 0 0 auto;
 }
@@ -264,7 +265,7 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: 300px;
@@ -297,9 +298,16 @@
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0 10px;
+  margin: 0 40px;
   word-break: break-word;
   font-weight: 300;
+}
+
+.section2-p > b {
+	display: inline;
+	color: rgb(74, 80, 187);
+	font-weight: 500;
+	font-family: "Space Mono", monospace;
 }
 
 /* Section 3 */
@@ -369,7 +377,7 @@
 .section3-containerTextH4 {
   font-size: 20px;
   line-height: 140%;
-  margin-bottom: 20px;
+  margin-bottom: 0 !important;
   text-transform: none;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -381,10 +389,9 @@
 .section3-p1 {
   color: rgb(74, 80, 187);
   text-align: left;
-  max-width: none;
   line-height: 160%;
   font-family: "Work Sans", sans-serif;
-  margin: 0;
+  margin: 10px 0 30px 0;
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
@@ -398,7 +405,6 @@
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -423,6 +429,7 @@
 }
 
 /* Section 4 */
+
 .section4 {
   display: flex;
   -moz-box-pack: center;
@@ -489,7 +496,7 @@
 .section4-h4 {
   font-size: 20px;
   line-height: 140%;
-  margin-bottom: 20px;
+  margin-bottom: 0 !important;
   text-transform: none;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -504,7 +511,7 @@
   max-width: none;
   line-height: 160%;
   font-family: "Work Sans", sans-serif;
-  margin: 0;
+  margin: 10px 0 30px 0;
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
