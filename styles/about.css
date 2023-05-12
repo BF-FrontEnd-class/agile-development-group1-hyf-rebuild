@@ -343,7 +343,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.1) 5px 4px 8px 5px;
   padding: 20px 40px;
   border-radius: 7px;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
   filter: grayscale(1);
   min-height: 180px;
   min-width: 180px;
@@ -358,8 +358,6 @@ body {
   filter: grayscale(1);
   min-height: 180px;
   min-width: 180px;
-
- 
 }
 
 .name-style {
