@@ -217,7 +217,7 @@
   padding: 50px 20px;
   position: relative;
   box-shadow: none;
-  background: rgb(248, 249, 252);
+  background: rgb(248, 249, 252) !important;
   z-index: 1;
   flex: 0 0 auto;
 }
@@ -270,7 +270,7 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: 300px;
@@ -303,9 +303,16 @@
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0 10px;
+  margin: 0 40px;
   word-break: break-word;
   font-weight: 300;
+}
+
+.section2-p > b {
+	display: inline;
+	color: rgb(74, 80, 187);
+	font-weight: 500;
+	font-family: "Space Mono", monospace;
 }
 
 /* Section 3 */
