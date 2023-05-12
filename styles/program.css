@@ -1,3 +1,11 @@
+body {
+  font-size: 15px;
+}
+
+.logo-link > img {
+  width: 12rem;
+}
+
 /* Logo and navigation */
 
 .nav-main {
@@ -16,6 +24,7 @@
 }
 
 /* Description, image, button `APPLY NOW` */
+
 .career {
   display: flex;
   flex-direction: row;
@@ -75,7 +84,7 @@
   font-family: "Work Sans", sans-serif;
 }
 
-.img-description img {
+.img-description .people-coding {
   width: 950px;
   height: 400px;
   border-radius: 12px;

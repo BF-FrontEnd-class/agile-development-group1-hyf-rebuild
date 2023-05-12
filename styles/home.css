@@ -140,15 +140,15 @@ html {
   font-size: 10px;
 }
 
-body {
+.body-home {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
   width: 100%;
-  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   background-color: hsl(0, 0%, 100%);
+  font-family: "Poppins", sans-serif;
   line-height: 1;
 }
 
@@ -162,6 +162,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   line-height: 1.8rem;
   z-index: 1000 !important;
   box-shadow: rgba(0, 0, 0, 0.353) 2px 2px 30px;
