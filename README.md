@@ -28,7 +28,7 @@ organization, such as through volunteering or donations.# Name of project
 
 ## Screenshots 📸
 
-![screenshot](./public/screen.png)
+![screenshot](./public/screen1.png)
 
 ## Status ⌛
 
